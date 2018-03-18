@@ -1,0 +1,2 @@
+# kushki-tslint
+Typescript Lint
