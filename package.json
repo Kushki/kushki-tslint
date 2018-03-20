@@ -1,0 +1,26 @@
+{
+  "name": "@kushki/tslint",
+  "version": "1.0.15",
+  "description": "Typescript Lint",
+  "main": "tslint.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushki/kushki-tslint.git"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Kushki/kushki-tslint/issues"
+  },
+  "homepage": "https://github.com/Kushki/kushki-tslint#readme",
+  "dependencies": {
+    "rxjs-tslint-rules": "^3.15.0",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-consistent-codestyle": "^1.12.0",
+    "tslint-eslint-rules": "^5.1.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "tslint-sonarts": "^1.6.0",
+    "vrsource-tslint-rules": "^5.8.1"
+  }
+}
