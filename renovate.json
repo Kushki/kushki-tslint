@@ -1,5 +1,9 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":pinVersions",
+    "group:all",
+    "group:definitelyTyped",
+    "schedule:monthly"
   ]
 }
