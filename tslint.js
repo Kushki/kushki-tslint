@@ -68,7 +68,7 @@ module.exports = {
     "no-as-type-assertion": true,
     "no-accessor-recursion": true,
     "no-collapsible-if": true,
-    "no-else-after-return": true,
+    "no-else-after-return": [true, "allow-else-if"],
     "no-return-undefined": true,
     "no-static-this": true,
     "no-unnecessary-else": true,
@@ -82,7 +82,7 @@ module.exports = {
     "rxjs-add": { severity: "error" },
     "rxjs-no-unused-add": { severity: "error" },
     "rxjs-deep-operators": true,
-    "rxjs-no-create": true,
+    "rxjs-no-create": false, // To keep all the code inside a stream.
     "rxjs-no-deep-operators": true,
     "rxjs-no-do": true,
     "rxjs-no-tap": true,
