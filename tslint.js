@@ -82,7 +82,7 @@ module.exports = {
     "rxjs-add": { severity: "error" },
     "rxjs-no-unused-add": { severity: "error" },
     "rxjs-deep-operators": true,
-    "rxjs-no-create": false, // To keep all the code inside a stream.
+    "rxjs-no-create": false,
     "rxjs-no-deep-operators": true,
     "rxjs-no-do": true,
     "rxjs-no-tap": true,
