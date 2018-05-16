@@ -84,18 +84,12 @@ module.exports = {
         "prefer-const-enum": true,
         "prefer-while": true,
         //rxjs-tslint-rules
-        "rxjs-add": {severity: "error"},
-        "rxjs-no-unused-add": {severity: "error"},
-        "rxjs-deep-operators": true,
         "rxjs-no-create": false,
-        "rxjs-no-deep-operators": true,
         "rxjs-no-do": true,
         "rxjs-no-tap": true,
         "rxjs-no-unsafe-switchmap": {severity: "error"},
-        "rxjs-no-wholesale": true,
         "rxjs-no-internal": true,
         "rxjs-ban-observables": {severity: "error"},
-        "rxjs-throw-error": true,
         //rxjs-tslint
         "rxjs-collapse-imports": true,
         "rxjs-pipeable-operators-only": true,
