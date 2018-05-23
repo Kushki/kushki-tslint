@@ -17,6 +17,8 @@ module.exports = {
         path.dirname(require.resolve("rxjs-tslint")),
     ],
     rules: {
+        //tslint-microsoft-contrib
+        "underscore-consistent-invocation": [true, { "style": "static" }],
         //vrsource-tslint-rules
         "conditional-expression-parens": true,
         "ext-variable-name": [
@@ -57,7 +59,7 @@ module.exports = {
         "no-regex-spaces": true,
         "no-sparse-arrays": true,
         "no-unexpected-multiline": true,
-        "valid-jsdoc": true,
+        "valid-jsdoc": [true],
         "valid-typeof": true,
         "no-multi-spaces": true,
         "handle-callback-err": true,
