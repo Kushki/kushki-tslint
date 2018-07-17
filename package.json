@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "3.0.12",
+  "version": "3.2.5",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "scripts": {},
@@ -15,11 +15,11 @@
   },
   "homepage": "https://github.com/Kushki/kushki-tslint#readme",
   "dependencies": {
-    "rxjs": "6.2.0",
-    "rxjs-tslint": "0.1.4",
-    "rxjs-tslint-rules": "4.2.1",
+    "rxjs": "6.2.2",
+    "rxjs-tslint": "0.1.5",
+    "rxjs-tslint-rules": "4.6.0",
     "tslint-config-prettier": "1.13.0",
-    "tslint-consistent-codestyle": "1.13.0",
+    "tslint-consistent-codestyle": "1.13.2",
     "tslint-eslint-rules": "5.3.1",
     "tslint-microsoft-contrib": "^5.0.3",
     "tslint-no-unused-expression-chai": "^0.1.3",
