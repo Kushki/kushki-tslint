@@ -107,6 +107,7 @@ module.exports = {
     "variable-name": false,
     "no-submodule-imports": false,
     "match-default-export-name": false,
+    "export-name": false,
     "no-implicit-dependencies": [
       true,
       "dev",
@@ -130,7 +131,12 @@ module.exports = {
     "file-name-casing": [true, "pascal-case"],
     "switch-final-break": [true, "always"],
     "prefer-while": true,
-      "comment-format": [true, "check-space", "check-uppercase", {"ignore-words": ["istanbul"]}],
+    "comment-format": [
+      true,
+      "check-space",
+      "check-uppercase",
+      { "ignore-words": ["istanbul"] }
+    ],
     "no-empty": true,
     "promise-function-async": true,
     "member-ordering": [
