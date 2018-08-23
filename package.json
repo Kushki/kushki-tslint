@@ -1,8 +1,11 @@
 {
   "name": "@kushki/tslint",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "Typescript Lint",
   "main": "tslint.js",
+  "files": [
+    "tslint.js"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
@@ -18,10 +21,10 @@
     "rxjs": "6.2.2",
     "rxjs-tslint": "0.1.5",
     "rxjs-tslint-rules": "4.7.2",
-    "tslint-config-prettier": "1.14.0",
+    "tslint-config-prettier": "1.15.0",
     "tslint-consistent-codestyle": "1.13.3",
-    "tslint-eslint-rules": "5.3.1",
-    "tslint-microsoft-contrib": "5.1.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-microsoft-contrib": "5.2.0",
     "tslint-no-unused-expression-chai": "0.1.3",
     "tslint-sonarts": "1.7.0",
     "vrsource-tslint-rules": "5.8.2"
