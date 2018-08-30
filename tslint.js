@@ -100,6 +100,7 @@ module.exports = {
     "rxjs-proper-imports": true,
     //sonar
     "parameters-max-number": [true, 8],
+    "no-big-function": [true, 300],
     //kushki
     "no-unsafe-any": false,
     curly: false,
@@ -160,6 +161,19 @@ module.exports = {
       {
         "ignore-module":
           "(string.padstart|string.padend|reflect-metadata|source-map-support/register|rxjs-spy/add/operator/tag|rxjs/add/operator/map|rxjs/(\\w|/)+)$"
+      }
+    ],
+    "max-func-body-length": [
+      true,
+      {
+        "func-body-length": 100,
+        "func-expression-body-length": 10,
+        "arrow-body-length": 75,
+        "method-body-length": 150,
+        "ctor-body-length": 50,
+        "ignore-comments": true,
+        "ignore-parameters-to-function-regex":
+          "^describe|it|beforeEach|afterEach|before|after$"
       }
     ]
   }
