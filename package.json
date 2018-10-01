@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
@@ -18,9 +18,8 @@
   },
   "homepage": "https://github.com/Kushki/kushki-tslint#readme",
   "dependencies": {
-    "rxjs": "6.3.2",
     "rxjs-tslint": "0.1.5",
-    "rxjs-tslint-rules": "4.8.0",
+    "rxjs-tslint-rules": "4.9.0",
     "tslint-config-prettier": "1.15.0",
     "tslint-consistent-codestyle": "1.13.3",
     "tslint-eslint-rules": "5.4.0",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {},
   "peerDependencies": {
-    "typescript": "3.*.*"
+    "typescript": "3.*.*",
+    "rxjs": "6.3.3"
   }
 }
