@@ -93,12 +93,13 @@ module.exports = {
         "rxjs-no-internal": true,
         "rxjs-ban-observables": {severity: "error"},
         "rxjs-no-unsafe-first": true,
-        //rxjs-tslint
         "rxjs-collapse-imports": true,
         "rxjs-pipeable-operators-only": true,
         "rxjs-no-static-observable-methods": true,
         "rxjs-proper-imports": true,
         "rxjs-prefer-observer": true,
+        "rxjs-no-nested-subscribe": true,
+        "rxjs-prefer-async-pipe": true,
         //sonar
         "parameters-max-number": [true, 8],
         "no-big-function": [true, 300],
