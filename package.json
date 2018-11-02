@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "3.7.0",
+  "version": "3.7.3",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
@@ -21,7 +21,7 @@
     "rxjs-tslint": "0.1.5",
     "rxjs-tslint-rules": "4.10.0",
     "tslint-config-prettier": "1.15.0",
-    "tslint-consistent-codestyle": "1.13.3",
+    "tslint-consistent-codestyle": "1.14.0",
     "tslint-eslint-rules": "5.4.0",
     "tslint-microsoft-contrib": "5.2.1",
     "tslint-no-unused-expression-chai": "0.1.4",

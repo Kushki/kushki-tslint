@@ -71,7 +71,7 @@ module.exports = {
         "ter-newline-after-var": [true, "always"],
         //tslint-consistent-codestyle
         "const-parameters": true,
-        "early-exit": true,
+        "early-exit": [true, { "ignore-constructor": true }],
         "ext-curly": true,
         "no-as-type-assertion": true,
         "no-accessor-recursion": true,
@@ -121,7 +121,7 @@ module.exports = {
                         .toString()
                 ).compilerOptions.paths
             ).map(path => {
-                const index = path.indexOf("/");
+                const index = path.lastIndexOf("/");
                 if (index !== -1) return path.substr(0, index);
                 return path;
             })
