@@ -101,7 +101,7 @@ module.exports = {
         "rxjs-no-nested-subscribe": true,
         "rxjs-prefer-async-pipe": true,
         //sonar
-        "parameters-max-number": [true, 8],
+        "parameters-max-number": [true, 10],
         "no-big-function": [true, 300],
         //kushki
         "no-unsafe-any": false,
