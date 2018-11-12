@@ -102,7 +102,7 @@ module.exports = {
         "rxjs-prefer-async-pipe": true,
         //sonar
         "parameters-max-number": [true, 10],
-        "no-big-function": [true, 300],
+        // "no-big-function": [true, 300],
         //kushki
         "no-unsafe-any": false,
         curly: false,
