@@ -100,9 +100,11 @@ module.exports = {
         "rxjs-prefer-observer": true,
         "rxjs-no-nested-subscribe": true,
         "rxjs-prefer-async-pipe": true,
+        "rxjs-no-subclass": { "severity": "error" },
+        "rxjs-no-ignored-notifier": true,
         //sonar
         "parameters-max-number": [true, 10],
-        // "no-big-function": [true, 300],
+        "no-big-function": false,
         //kushki
         "no-unsafe-any": false,
         curly: false,
@@ -114,7 +116,7 @@ module.exports = {
         "no-implicit-dependencies": [
             true,
             "dev",
-            Object.keys(
+            ['@sendgrid/helpers'].concat(Object.keys(
                 JSON.parse(
                     fs
                         .readFileSync(path.resolve(`${process.cwd()}/tsconfig.json`))
@@ -124,7 +126,7 @@ module.exports = {
                 const index = path.lastIndexOf("/");
                 if (index !== -1) return path.substr(0, index);
                 return path;
-            })
+            }))
         ],
         "no-unnecessary-class": ["allow-empty-class", "allow-static-only"],
         "no-void-expression": ["ignore-arrow-function-shorthand"],
@@ -138,7 +140,7 @@ module.exports = {
             true,
             "check-space",
             "check-uppercase",
-            {"ignore-words": ["istanbul"]}
+            {"ignore-words": ["istanbul", "prettier-ignore"]}
         ],
         "no-empty": true,
         "promise-function-async": true,

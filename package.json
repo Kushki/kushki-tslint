@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "3.8.0",
+  "version": "3.9.2",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
@@ -19,8 +19,8 @@
   "homepage": "https://github.com/Kushki/kushki-tslint#readme",
   "dependencies": {
     "rxjs-tslint": "0.1.5",
-    "rxjs-tslint-rules": "4.10.0",
-    "tslint-config-prettier": "1.15.0",
+    "rxjs-tslint-rules": "4.12.0",
+    "tslint-config-prettier": "1.16.0",
     "tslint-consistent-codestyle": "1.14.1",
     "tslint-eslint-rules": "5.4.0",
     "tslint-microsoft-contrib": "5.2.1",
