@@ -20,6 +20,7 @@ module.exports = {
     rules: {
         //tslint-microsoft-contrib
         "underscore-consistent-invocation": [true, {style: "static"}],
+        "non-literal-fs-path": false,
         //vrsource-tslint-rules
         "conditional-expression-parens": true,
         "ext-variable-name": [
