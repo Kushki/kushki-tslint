@@ -21,6 +21,7 @@ module.exports = {
         //tslint-microsoft-contrib
         "underscore-consistent-invocation": [true, {style: "static"}],
         "non-literal-fs-path": false,
+        "no-null-keyword": false,
         //vrsource-tslint-rules
         "conditional-expression-parens": true,
         "ext-variable-name": [
@@ -166,7 +167,7 @@ module.exports = {
             true,
             {
                 "ignore-module":
-                    "(string.padstart|string.padend|reflect-metadata|source-map-support/register|rxjs-spy/add/operator/tag|rxjs/add/operator/map|rxjs/(\\w|/)+)$"
+                    "(string.padstart|string.padend|reflect-metadata|source-map-support/register|@kushki/pidcrypt/(\\\\w|/)+))$"
             }
         ],
         "max-func-body-length": [
