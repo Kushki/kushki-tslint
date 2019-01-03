@@ -167,7 +167,7 @@ module.exports = {
             true,
             {
                 "ignore-module":
-                    "(string.padstart|string.padend|reflect-metadata|source-map-support/register|@kushki/pidcrypt/(\\\\w|/)+))$"
+                    "(string.padstart|string.padend|reflect-metadata|source-map-support/register|@kushki/pidcrypt/(\\w|/)+)$"
             }
         ],
         "max-func-body-length": [
