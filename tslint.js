@@ -87,6 +87,7 @@ module.exports = {
         "object-shorthand-properties-first": true,
         "parameter-properties": true,
         "prefer-const-enum": true,
+        "no-unnecessary-else": true,
         //rxjs-tslint-rules
         "rxjs-no-create": false,
         "rxjs-no-do": true,
@@ -108,6 +109,15 @@ module.exports = {
         //sonar
         "parameters-max-number": [true, 10],
         "no-big-function": false,
+        "no-empty-array": true,
+        "no-try-promise": true,
+        "arguments-order": true,
+        "bool-param-default": false,
+        "max-switch-cases": true,
+        "no-alphabetical-sort": true,
+        "no-nested-switch": true,
+        "no-useless-catch": true,
+        "prefer-type-guard": true,
         //kushki
         "no-unsafe-any": false,
         curly: false,
