@@ -106,6 +106,7 @@ module.exports = {
         "rxjs-no-subclass": { "severity": "error" },
         "rxjs-no-ignored-notifier": true,
         "rxjs-no-ignored-replay-buffer": true,
+        "rxjs-no-exposed-subjects": true,
         //sonar
         "parameters-max-number": [true, 10],
         "no-big-function": false,
