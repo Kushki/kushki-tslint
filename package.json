@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
@@ -28,8 +28,5 @@
     "tslint-sonarts": "1.9.0",
     "vrsource-tslint-rules": "6.0.0"
   },
-  "devDependencies": {},
-  "peerDependencies": {
-    "typescript": "3.2.*"
-  }
+  "devDependencies": {}
 }
