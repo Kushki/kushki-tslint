@@ -107,6 +107,7 @@ module.exports = {
         "rxjs-no-ignored-notifier": true,
         "rxjs-no-ignored-replay-buffer": true,
         "rxjs-no-exposed-subjects": true,
+        "rxjs-suffix-subjects": true,
         //sonar
         "parameters-max-number": [true, 10],
         "no-big-function": false,
