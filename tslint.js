@@ -7,7 +7,7 @@ module.exports = {
         "vrsource-tslint-rules",
         "tslint-consistent-codestyle",
         "tslint-eslint-rules",
-        "tslint-microsoft-contrib",
+        "tslint-microsoft-contrib/latest",
         "tslint-sonarts",
         "rxjs-tslint-rules",
         "tslint-no-unused-expression-chai",
@@ -15,13 +15,19 @@ module.exports = {
     ],
     rulesDirectory: [
         path.join(path.dirname(require.resolve("vrsource-tslint-rules")), "rules"),
-        path.dirname(require.resolve("rxjs-tslint"))
+        path.dirname(require.resolve("rxjs-tslint")),
+        path.dirname(require.resolve("tslint-microsoft-contrib"))
     ],
     rules: {
         //tslint-microsoft-contrib
         "underscore-consistent-invocation": [true, {style: "static"}],
         "non-literal-fs-path": false,
         "no-null-keyword": false,
+        "prefer-type-cast": true,
+        "no-angle-bracket-type-assertion": false,
+        "interface-over-type-literal": false,
+        "object-literal-sort-keys": false,
+        "array-type": [true, "array"],
         //vrsource-tslint-rules
         "conditional-expression-parens": true,
         "ext-variable-name": [
