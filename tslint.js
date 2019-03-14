@@ -28,6 +28,13 @@ module.exports = {
         "interface-over-type-literal": false,
         "object-literal-sort-keys": false,
         "array-type": [true, "array"],
+        "object-literal-sort-keys": [
+          true,
+          "ignore-case",
+          "locale-compare",
+          "match-declaration-order",
+          "shorthand-first"
+        ],
         //vrsource-tslint-rules
         "conditional-expression-parens": true,
         "ext-variable-name": [

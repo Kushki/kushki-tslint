@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "5.0.2",
+  "version": "5.1.0",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
