@@ -208,6 +208,7 @@ module.exports = {
                 "ignore-parameters-to-function-regex":
                     "^describe|it|beforeEach|afterEach|before|after$"
             }
-        ]
+        ],
+        "max-union-size": [true, 4]
     }
 };
