@@ -4,6 +4,7 @@ const fs = require("fs");
 module.exports = {
     extends: [
         "tslint:latest",
+        "tslint-config-standard",
         "vrsource-tslint-rules",
         "tslint-consistent-codestyle",
         "tslint-eslint-rules",
@@ -26,7 +27,6 @@ module.exports = {
         "prefer-type-cast": true,
         "no-angle-bracket-type-assertion": false,
         "interface-over-type-literal": false,
-        "object-literal-sort-keys": false,
         "array-type": [true, "array"],
         "object-literal-sort-keys": [
           true,
@@ -100,7 +100,6 @@ module.exports = {
         "object-shorthand-properties-first": true,
         "parameter-properties": true,
         "prefer-const-enum": true,
-        "no-unnecessary-else": true,
         //rxjs-tslint-rules
         "rxjs-no-create": false,
         "rxjs-no-do": true,
@@ -122,6 +121,7 @@ module.exports = {
         "rxjs-no-exposed-subjects": true,
         "rxjs-suffix-subjects": true,
         "rxjs-no-connectable": true,
+        "rxjs-no-ignored-observable": true,
         //sonar
         "parameters-max-number": [true, 10],
         "no-big-function": false,
