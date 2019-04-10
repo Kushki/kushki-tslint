@@ -32,7 +32,6 @@ module.exports = {
           true,
           "ignore-case",
           "locale-compare",
-          "match-declaration-order",
           "shorthand-first"
         ],
         //vrsource-tslint-rules
@@ -209,6 +208,7 @@ module.exports = {
                     "^describe|it|beforeEach|afterEach|before|after$"
             }
         ],
-        "max-union-size": [true, 4]
+        "max-union-size": [true, 4],
+        "no-any": true
     }
 };
