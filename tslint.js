@@ -121,6 +121,9 @@ module.exports = {
         "rxjs-suffix-subjects": true,
         "rxjs-no-connectable": true,
         "rxjs-no-ignored-observable": true,
+        "rxjs-no-async-subscribe": true,
+        "rxjs-no-ignored-subscription": false,
+        "rxjs-no-explicit-generics": true,
         //sonar
         "parameters-max-number": [true, 10],
         "no-big-function": false,
@@ -168,7 +171,7 @@ module.exports = {
             true,
             "check-space",
             "check-uppercase",
-            {"ignore-words": ["istanbul", "prettier-ignore"]}
+            {"ignore-words": ["istanbul", "prettier-ignore", "jscpd"]}
         ],
         "no-empty": true,
         "promise-function-async": true,
