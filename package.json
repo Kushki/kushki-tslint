@@ -1,6 +1,6 @@
 {
   "name": "@kushki/tslint",
-  "version": "5.2.10",
+  "version": "5.2.11",
   "description": "Typescript Lint",
   "main": "tslint.js",
   "files": [
@@ -24,7 +24,7 @@
     "tslint-config-standard": "8.0.1",
     "tslint-consistent-codestyle": "1.15.1",
     "tslint-eslint-rules": "5.4.0",
-    "tslint-microsoft-contrib": "6.1.1",
+    "tslint-microsoft-contrib": "6.2.0",
     "tslint-no-unused-expression-chai": "0.1.4",
     "tslint-sonarts": "1.9.0",
     "vrsource-tslint-rules": "6.0.0"
